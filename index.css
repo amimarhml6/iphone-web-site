@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+.homes .home .logo img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.homes .home .logo h2 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.homes .home .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homes .home .navbar ul li{
+    list-style: none;
+}
+.homes .home .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+.homes .home .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.homes .home {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.homes{
+    background-color: black;
+    height: 2190px;
+}
+.homes .iphone .about .name{
+    color: white;
+    font-size: 28px;
+}
+.homes .iphone .about .type{
+    color: white;
+    font-size: 260px;
+    text-shadow: 0px 0px 10px rgb(215, 170, 87) ,0px 0px 15px rgb(35, 35, 215) ,0px 0px 300px rgb(225, 151, 13);
+}
+.homes .iphone .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.homes .iphone .date h4{
+    color: gray;
+}
+.homes .iphone .date h6{
+    color: gray;
+}
+.homes .iphone .buy .pris{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 13px;
+}
+.homes .iphone .buy .pris:hover{
+    border: 2px solid white ;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.homes .iphone .buy .details{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 13px;
+}
+.homes .iphone .buy .details:hover{
+    border: 2px solid white ;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.homes .iphone .buy{
+    display: flex;
+    gap: 15px;
+}
+.homes .iphone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-top:140px ;
+    background: url(page.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1100px;
+}
+.homes .iphone .buy .Précommander{
+    background-color: white;
+    color: black;
+    padding: 8px 13px;
+    border: none;
+    text-decoration: none;
+}
+.homes .iphone .buy .Précommander:hover{
+    border: 1px solid white ;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.homes .iphone .date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.plus{
+    color: white;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.homes .pre .pres .left{
+    width: 260px;
+    height: 130px;
+    color: white;
+    font-size: 25px;
+}
+.homes .pre .pres{
+    margin-top: 60px;
+    background-color: rgb(46, 47, 47);
+    width: 800px;
+    height: 400px;
+    border-radius:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.homes .pre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#before , #after{
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+}
+.homes .pre .pres .right img{
+    width: 400px;
+    height: 400px;
+}
+.homes .images .colors h4 {
+    color: white;
+}
+.homes .images .colors .color .all{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to right, rgb(75, 74, 74) ,rgb(159, 157, 157), white, #9c775e ) ;
+    border-radius: 50%;
+}
+.homes .images .colors .color .white{
+    height: 35px;
+    width: 35px;
+    background-color: white ;
+    border-radius: 50%;
+}
+.homes .images .colors .color .beige{
+    height: 35px;
+    width: 35px;
+    background-color: #9c775e ;
+    border-radius: 50%;
+}
+.homes .images .colors .color .black{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(75, 74, 74) ;
+    border-radius: 50%;
+}
+.homes .images .colors .color .gray{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(159, 157, 157) ;
+    border-radius: 50%;
+}
+.homes .images .image img{
+    width: 500px;
+    height: 500px;
+}
+.homes .images {
+margin-top: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.homes .images .colors{
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.homes .images .colors .color{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    background-color: rgba(235, 181, 81, 0.311);
+    padding: 10px 15px;
+    border-radius:30px ;
+}
+.homes .home .navbar ul li a:hover{
+    background-color: rgb(146, 144, 144);
+    border-radius: 10px;
+    transition: 0.7s;
+}
